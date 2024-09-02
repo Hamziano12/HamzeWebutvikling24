@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    color: aqua;
+    font-weight: bold;
+}
+footer {
+    color: rgb(243, 189, 123);
+    font-size: 13px;
+    opacity: 0.7;
+    float: left;
+
+}
+div {
+    width: 600px;
+    margin: 100px;
+    font-size: 20px;
+    color: blue;
+}
