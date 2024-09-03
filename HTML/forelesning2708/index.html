@@ -17,11 +17,41 @@
                     <li><a href="about.html">Om oss</a></li>
                     <li><a href="index.html">Hjem</a></li>
                     <li><a href="#bunn">Snarvei til footer</a></li>
+                    <li><a href="contact.html">HTML skjema</a></li>
                     <li><a href="../../Felles/main.html">Main</a></li>
-                    <li><a href="https://www.roblox.com" target="_blank">Slayyyyyy</a></li>
                 </ul>
             </nav>
         </header>
+        <section>
+        <h2>Skjema</h2>
+        <form>
+            <label for="fname">Fornavn:</label>
+            <input type="text" id="fname" name="fname" placeholder="Skriv inn ditt fornavn" maxlength="50" required>
+            <label for="lname">Etternavn:</label>
+            <input type="text" id="lname" name="lname" placeholder="Skriv inn ditt etternavn" maxlength="50" required>
+            <input type="submit" value="Submit">
+            <input type="checkbox" id="gender1" name="gender1" value="Male" required>
+            <label for="gender1">Male</label>
+            <input type="checkbox" id="gender2" name="gender2" value="Female" required>
+            <label for="gender2">Female</label>
+            <label for="animals">Choose your favorite animal</label>
+            <select id="animals" name="animals">
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="Rabbit">Rabbit</option>
+            </select>
+            <label for="ja">Ja</label>
+            <input type="radio" id="ja" name="valg">
+            <label for="nei">Nei</label>
+            <input type="radio" id="nei" name="valg">
+            <label for="password">Passord:</label>
+            <input type="password" id="password" name="password">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="eksempel@hiof.no" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+            <label type="submit" value="Send inn"></label>
+            <input type="range" name="decade" min="1900" max="2024" step="10"/>
+        </section>
+        </form>
     <main>
         <h1> Dette handler om</h1>
         <p> Alt som er hovedinnhold havner her </p>
